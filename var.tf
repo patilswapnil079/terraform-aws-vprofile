@@ -38,7 +38,7 @@ variable "dbuser" {
   default = "admin"
 }
 
-variable "pass" {
+variable "dbpass" {
   default = "admin123"
 }
 
