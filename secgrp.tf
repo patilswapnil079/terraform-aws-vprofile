@@ -16,7 +16,7 @@ resource "aws_security_group" "vprofile-bean-elb-sg" {
     from_port = 80
     protocol = "tcp"
     to_port = 80
-    cidr_blocks = [0.0.0.0/0]
+    cidr_blocks = ["0.0.0.0/0"]
 
   }
 }
